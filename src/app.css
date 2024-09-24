@@ -1,0 +1,13 @@
+.box{
+  background-color: beige;
+}
+
+span{
+  cursor: pointer;
+  background-color: red;
+}
+
+.box{
+  padding: 10px;
+  margin: 10px;
+}
