@@ -25,10 +25,17 @@ function App() {
           return (
             <div className='box' onClick={handleDelete}>
               <span onClick={handleDelete}>X</span>
+              <div className='inner'>
+                <div className='img-container'>
+                <img src={results.image_url} alt="News Post"/>
+                </div>
               <div>
-              <h4>{results.title}</h4>
-              <p>{results.creator}</p>
+              <h1>{results.title}</h1>
+              <h2>{results.creator}</h2>
+              <p>{results.language}</p>
+
               <a id="myLink" href={results.link} target="_blank">News Link</a>
+              </div>
               </div>
 
             </div>
