@@ -1,15 +1,8 @@
-# COMP3170 Week 4/Lab3
+# React + Vite
 
-This is a template for COMP3170 Week 4/Lab3 assignment.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-To use it, click on the `Use this template` button and select `Create new repository`.
-Then clone your new repository onto your local machine.
+Currently, two official plugins are available:
 
-Alternatively, you can use `degit`:
-
-```
-mkdir lab3
-cd lab3
-npx degit yveshema/COMP3170-week4-lab3
-```
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
